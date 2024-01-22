@@ -1,0 +1,23 @@
+.footer-container {
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+
+.footer-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-transform: uppercase;
+}
+
+.footer-logo-box {
+  height: 7em;
+  width: 7em;
+}
+
+.footer-contact {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}

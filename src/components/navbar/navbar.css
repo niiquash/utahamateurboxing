@@ -1,5 +1,5 @@
 .navbar-container {
-  background-color: black;
+  background-color: rgb(29, 29, 29);
   color: #fff;
   position: fixed;
   top: 0;
@@ -15,9 +15,12 @@
   padding: 0.75em;
 }
 
+.navbar-logo-box {
+  width: 4em;
+}
+
 .logo {
-  font-weight: 900;
-  font-size: 2em;
+  width: 100%;
   cursor: pointer;
 }
 
@@ -27,11 +30,25 @@
 }
 
 .menu-item {
-  margin-left: 2em;
+  margin-left: 3em;
   text-transform: uppercase;
   cursor: pointer;
 }
 
 .menu-item:hover {
   color: #cfa74e;
+}
+
+.navbar-socials-box {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.socials-link {
+  text-decoration: none;
+  color: white;
+  height: 2em;
+  width: 2em;
 }
