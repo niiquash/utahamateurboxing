@@ -1,0 +1,36 @@
+.navbar-container {
+  background-color: black;
+  color: #fff;
+}
+
+.navbar-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 1em;
+  padding: 0.75em;
+}
+
+.navbar-logo-box {
+}
+
+.logo {
+  font-weight: 900;
+  font-size: 2em;
+  cursor: pointer;
+}
+
+.navbar-menu-list {
+  list-style: none;
+  display: flex;
+}
+
+.menu-item {
+  margin-left: 2em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.menu-item:hover {
+  color: #cfa74e;
+}
