@@ -1,6 +1,10 @@
 .navbar-container {
   background-color: black;
   color: #fff;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
 }
 
 .navbar-wrapper {
@@ -9,9 +13,6 @@
   justify-content: space-between;
   margin: 0 1em;
   padding: 0.75em;
-}
-
-.navbar-logo-box {
 }
 
 .logo {
